@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .maximo {
+    width: 80px;
+    max-width: 100px;
+    overflow: hidden;
+    height: 30px;
+  }
+
+  .container {
+    /* width: 96%; */
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* outline: 2px solid red; */
+  }
+
+  table {
+    /* width: 96%; */
+  }
+
+  .peque {
+    font-size: x-small;
+  }
+
+  table .bot {
+    padding: 0;
+    display: inline;
+    border: 0;
+    color: aqua;
+  }
+
+  table .sin {
+    border: 0;
+  }

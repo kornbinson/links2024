@@ -1,0 +1,165 @@
+:root {   
+    --btn-up-auto: #74747558;
+    --btn-up-auto-inerno: #fff;
+  }
+
+body {
+    background-color: rgb(73, 70, 70);
+    color: #c8c8c8;
+    /* width: 98%;	 */
+}
+
+.maximo {
+    width: auto;
+    max-width: 200px;
+    overflow: hidden;
+    height: 30px;
+}
+
+.peque {
+    font-size: x-small;
+}
+
+table .bot {
+    padding: 0 5px;
+    display: inline;
+    border: 0;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.containerIndex {
+    max-width: 200px;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* outline: 2px solid red; */
+}
+
+.caja {
+    width: 90%;
+    height: auto;
+}
+
+.modal-content{
+    background-color: #4f4f4f;
+}
+.text-dark{
+    color: #f8f9fa !important;
+}
+.btn-success{
+    background-color: #236f35;
+}
+.btn-primary{
+    background-color: #0f57a4;
+}
+.btn-danger{
+    background-color: #a92532;
+}
+
+.close {
+    color: #ece7e7 !important;
+    text-decoration: none;
+}
+.close:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.ir-arriba {
+	display:none;
+    width: 35px;
+    text-align: center;
+	background: var(--btn-up-auto);
+	font-size:20px;
+	color: var(--btn-up-auto-inerno);
+	cursor:pointer;
+	position: fixed;
+	bottom:70px;
+	left:4%;
+    border-radius: 50%;
+}
+
+.ir-abajo {
+	/* display:none; */
+    width: 35px;
+    text-align: center;
+	background: var(--btn-up-auto);
+	font-size:20px;
+	color: var(--btn-up-auto-inerno);
+	cursor:pointer;
+	position: fixed;
+	top:180px;
+	left:4%;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr:nth-of-type(2n) {
+        background-color: inherit;
+    }
+
+    tr td:first-child {
+        background: #333436;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    tbody td {
+        display: block;
+        text-align: center;
+    }
+
+    tbody td:before {
+        content: attr(data-th);
+        display: block;
+        text-align: center;
+    }
+
+    .maximo {
+        width: auto;
+        max-width: 200px;
+        overflow: hidden;
+        height: 30px;
+    }
+
+    .peque {
+        font-size: x-small;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* .ir-arriba {
+        display:none;
+        width: 35px;        
+        text-align: center;
+        padding-top: 5px;
+        background: var(--btn-up-auto);
+        font-size:20px;
+        color: var(--btn-up-auto-inerno);
+        cursor:pointer;
+        position: fixed;
+        bottom:100px;
+        left:15px;
+        border-radius: 50%;
+    } */
+
+}
